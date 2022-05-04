@@ -13,5 +13,5 @@ if ( firstWord.length > secondWord.length ) {
     console.log(firstWord);
     console.log(secondWord);
 } else {
-    console.log("pari");
+    console.log("le parole hanno la stessa lunghezza");
 }
