@@ -5,4 +5,8 @@ let names = ["Giuseppe", "Giovanni", "Gianluca"];
 let surnames = ["Salamone", "Mura", "Parisi"];
 
 // 2. genero una lista di nomi e cognomi
-console.log(`${names[0]} ${surnames[0]}, ${names[1]} ${surnames[1]}, ${names[2]} ${surnames[2]}`);
+// console.log(`${names[0]} ${surnames[0]}, ${names[1]} ${surnames[1]}, ${names[2]} ${surnames[2]}`);
+
+// 2.bis genero una lista di nomi e cognomi
+let list = [...names,...surnames];
+console.log(list);
